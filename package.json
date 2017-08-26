@@ -1,0 +1,21 @@
+{
+  "name": "what-to-eat",
+  "version": "1.0.0",
+  "description": "Uses Yelp to help you find where to eat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine ../spec/wteSpec.js"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "fact"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "aws-sdk": "^2.78.0",
+    "yelp-fusion": "^1.0.3"
+  }
+}
